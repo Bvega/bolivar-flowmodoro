@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/react-swc'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Essential: Tells the browser where to find assets on GitHub Pages
+  // Ensures assets load correctly from the /bolivar-flowmodoro/ subfolder
   base: '/bolivar-flowmodoro/', 
 })
