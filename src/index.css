@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Blueprint Recommendation: Maintain the "Quiet" background for stability */
+@layer base {
+  body {
+    background-color: theme('colors.slate.50');
+    color: theme('colors.slate.900');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
